@@ -1,2 +1,5 @@
-import { NextResponse } from 'next/server';
-export const GET = () => NextResponse.json({ status: 'ok' });
+import { NextResponse } from 'next/server'
+
+export const GET = () => {
+  return NextResponse.json({ status: 'ok' })
+}
